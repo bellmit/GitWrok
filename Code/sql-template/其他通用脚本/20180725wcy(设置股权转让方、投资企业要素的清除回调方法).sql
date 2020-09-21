@@ -1,0 +1,2 @@
+update tproject_factor_info t set t.c_fieldconfig='{"afterClear":"clearEnterprise"}' where t.c_factorcode='tinvest_contract_enterprise';
+update tproject_factor_info t set t.c_fieldconfig='{"afterClear":"clearTransferor"}' where t.c_factorcode='tinvest_contract_gqtransferor';

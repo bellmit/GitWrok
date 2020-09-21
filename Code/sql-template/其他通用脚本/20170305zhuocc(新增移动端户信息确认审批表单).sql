@@ -1,0 +1,8 @@
+delete from tmobile_config_form t where t.C_FORMURL='/creditorcontract/loanerstatusconfirm.htm';
+delete from tmobile_config_field t where t.C_MODELCODE='/creditorcontract/loanerstatusconfirm.htm';
+
+insert into tmobile_config_form (C_FORMURL, C_FORMNAME, C_STOREBOUND, C_CONTENTBOUND, C_ISLOADATTACH, C_CLIENTTYPE, C_LOADATTCHBOUND, C_ISUSE)
+values ('/creditorcontract/loanerstatusconfirm.htm', '户信息确认', null, 'loanAccountInfoManager.getLoanConfirmInfoForMobile()', '0', 'MOBILE', null, '1');
+
+insert into tmobile_config_field (C_MODELCODE, C_MODELNAME, C_FIELDCODE, C_FROMFIELDCODE, C_FIELDNAME, C_FIELDTYPE, L_ORDER, C_VALUEBOUND, C_DEFVALUE, C_ALLOWBANK, L_MAXLENGTH, C_FIELDTYPENAME, C_FIELDSQLVAL)
+values ('/creditorcontract/loanerstatusconfirm.htm', '户信息确认', 'gridLoanConfirm', null, '户信息确认', '9', 1, '{"title":"户信息确认","columns":[{"name":"借款人","code":"loanaccountname","fieldType":"1","iscanupdate":"0","valuebound":"","isshow":"true"},{"name":"所属项目","code":"projectname","fieldType":"1","iscanupdate":"0","valuebound":"","isshow":"true"},{"name":"省","code":"provincecode","fieldType":"1","iscanupdate":"0","valuebound":"","isshow":"true"},{"name":"市","code":"cityno","fieldType":"1","iscanupdate":"0","valuebound":"","isshow":"true"},{"name":"地区","code":"regioncode","fieldType":"1","iscanupdate":"0","valuebound":"","isshow":"true"},{"name":"是否勾选","code":"confirmflag","fieldType":"0","iscanupdate":"0","valuebound":"","isshow":"true"}]}', null, null, null, '户信息确认', null);

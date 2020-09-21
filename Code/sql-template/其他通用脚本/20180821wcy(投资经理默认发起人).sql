@@ -1,0 +1,2 @@
+update Tproject_Factor_Info t set t.c_factordefval='{user_isrole_9999}' where t.c_factorcode='tproject_info_investmentmanager';
+update Tproject_Factor_Info t set t.c_factordefval='' where t.c_factorcode='tproject_info_investmentmanagerB';

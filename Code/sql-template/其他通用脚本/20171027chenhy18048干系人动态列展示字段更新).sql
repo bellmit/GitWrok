@@ -1,0 +1,2 @@
+update tproject_template_field t set t.c_fieldcode = 'amcorganizationcode' where t.c_fieldcode = 'organizationcode';
+update tproject_temp_config_field t set t.c_fieldcode = 'amcorganizationcode' where t.c_fieldcode = 'organizationcode';

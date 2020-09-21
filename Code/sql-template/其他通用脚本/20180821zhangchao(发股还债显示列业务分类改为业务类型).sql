@@ -1,0 +1,1 @@
+update tproject_temp_config_field t set t.c_fieldname = '业务类型' where t.c_fieldcode = 'busiclassification_display' and t.c_templatecode = 'debtToStockProjectManage';

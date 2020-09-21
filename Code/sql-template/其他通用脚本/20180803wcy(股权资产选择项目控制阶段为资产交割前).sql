@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_valuebound='projectSelector(''{fieldid}'',''projectnature=01,02,09'||to_char('&')||'isProjectNatureReadonly=1'||to_char('&')||'maxphase=34'',selectProject)' where t.c_factorcode='tequity_assets_projectcode';

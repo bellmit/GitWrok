@@ -1,0 +1,1 @@
+update tproject_factor_info tfi set tfi.l_maxlength = '14' where tfi.c_factorcode = 'tinvest_contract_transfervalue';

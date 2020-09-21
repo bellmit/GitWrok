@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_isneed = '0' where t.c_factorcode = 'tinvest_contract-projectsel';

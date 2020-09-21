@@ -1,0 +1,1 @@
+UPDATE Tproject_Factor_Config t SET t.c_infoclass='com.hundsun.fund.amc.bean.contract.InvestContract',t.c_detailclass='com.hundsun.fund.amc.bean.contract.InvestContractDetail',t.c_traceclass='com.hundsun.fund.amc.bean.contract.InvestContractFactorTrace' where t.c_factorflag='6';

@@ -1,0 +1,2 @@
+update tproject_factor_info t set t.c_factorname='转让方',t.c_factortypename='转让方',t.c_factortypesubname='转让方',t.c_valuebound='customerAccSelector(''9'',''{fieldid}'',selectRivalAccount,'''',''1'')' where t.c_factorcode='tinvest_contract-rivalaccountcode';
+update tproject_factor_info t set t.c_factortypename='转让方',t.c_factortypesubname='转让方' where t.c_factorcode in ('tinvest_contract-accountnumber','tinvest_contract-accountname');

@@ -1,0 +1,1 @@
+update trepay_confirm_config t set t.c_isloan = '1' where t.c_repay_type = '22084';

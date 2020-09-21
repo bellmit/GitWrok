@@ -1,0 +1,1 @@
+update  tproject_factor_info t set t.c_valuebound='2' ,t.c_fieldconfig='{"integerNum":"13"}' where t.c_factorcode in ('tproject_info_framesignedmoney','tproject_info_applyinvestmoney','tproject_info_submitinvestmoney');

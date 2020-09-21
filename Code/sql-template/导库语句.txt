@@ -1,0 +1,30 @@
+1.数据泵本地导入数据库
+--使用dba用户创建用户
+ create user hrfeiyong--用户名
+ identified by hrfeiyong--用户密码
+ default tablespace tcmp   --表空间
+ temporary tablespace temp   --临时表空间
+ quota unlimited on tcmp;
+
+--使用dba用户赋权
+grant connect,resource,create table,create view, create database link to hekuyz;
+grant dba to hrfeiyong;
+
+--创建directory
+CREATE [OR REPLACE] DIRECTORY directory AS 'pathname(dmp文件所在位置）';
+create or replace directory DATA_PUMP_DIR as 'E:\hrzcsp10.dmp'
+
+impdp huarong/1@orcl  directory=DATA_PUMP_DIR  dumpfile=huarong.DMP logfile=huarong.log remap_schema=huarong:huarong
+
+--查询创建的路径
+select * from dba_directories;
+
+
+2.远程数据泵导出数据库
+expdp amc_hrzcsp10/amc_hrzcsp10@192.168.76.66:1521/orcl  directory=DIR_JING dumpfile=huarun_sp10a_20180402.dmp logfile=huarun_sp10a_20180402.log
+
+expdp 数据库登录名/登录密码@远程数据库所在计算机IP:1521/SID file=d:\导出文件名.dmp full=y
+
+3.数据泵导入
+impdp amc_hrzcsp10/amc_hrzcsp10@127.0.0.1:1521/orcl   directory=DATA_PUMP_DIR dumpfile=HUARUN_SP10A_20180402.dmp  logfile=huarun_sp10a_20180402.log remap_schema=amc_hrzcsp10:amc_hrzcsp10
+

@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.l_maxlength = '13' where t.c_factorcode = 'tproject_info_requiredfund';

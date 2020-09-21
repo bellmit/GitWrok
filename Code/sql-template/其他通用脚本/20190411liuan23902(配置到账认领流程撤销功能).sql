@@ -1,0 +1,1 @@
+update jbpm4_ext_formreg t set t.c_formbean = 'arrivalDataManager' where t.formurl = '/financial/arrivaldata/claimflowform.htm';

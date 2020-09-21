@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_factorsqlval='select t.c_loanaccountname as factorvalue from tasset_loanaccount_info t where t.c_loanaccountcode=''{tasset_creditorcontract_loanaccountcode}''' where t.c_factorcode='tasset_creditorcontract_loanaccountcode';

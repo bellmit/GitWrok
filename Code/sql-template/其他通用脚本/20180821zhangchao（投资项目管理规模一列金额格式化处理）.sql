@@ -1,0 +1,1 @@
+update tproject_template_field t set t.c_comptype = '18',t.c_colrenderer = 'viewMoney' where t.c_fieldcode = 'trustscale' and t.c_modelcode = 'investProjectManage';

@@ -1,0 +1,1 @@
+update tproject_template_field set c_colrenderer = 'viewFundInfoFunc' where c_fieldcode = 'projectName' and c_modelcode = 'AccoBanksManage';

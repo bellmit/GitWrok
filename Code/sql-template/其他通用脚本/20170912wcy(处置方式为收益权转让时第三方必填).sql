@@ -1,0 +1,1 @@
+update tproject_factor_rule t set t.c_funargs='''tproject_info_thirdpartyname'',[tproject_info_dealtype]==''21''' where t.c_ruleid='cbms_cz_1';

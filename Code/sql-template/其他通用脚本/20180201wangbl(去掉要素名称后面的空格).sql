@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_factorname=trim(t.c_factorname);

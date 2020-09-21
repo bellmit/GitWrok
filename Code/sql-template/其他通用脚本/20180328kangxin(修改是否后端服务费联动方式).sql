@@ -1,0 +1,1 @@
+update tproject_factor_rule t set t.c_isinitexe = '2' where t.c_ruleid = 'com_isbank_desc';

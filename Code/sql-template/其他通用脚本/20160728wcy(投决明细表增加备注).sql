@@ -1,0 +1,1 @@
+alter table tmeeting_apply_detail add c_remark varchar2(4000);

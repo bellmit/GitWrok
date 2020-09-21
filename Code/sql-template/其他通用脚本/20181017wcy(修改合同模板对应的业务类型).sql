@@ -1,0 +1,1 @@
+update tproject_factor_temp t set t.c_busitype='63' where t.c_tempcode='XTDK_001';

@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_fieldtype = '7',t.c_valuebound = 'fundSelector('''','''',showInvestFundInfo)',t.c_fieldconfig = '{"editable":"true"}' where t.c_factorcode = 'tinvest_contract_investplanname';

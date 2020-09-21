@@ -1,0 +1,3 @@
+update tsys_subtrans t set t.trans_code='debtpacket' where t.sub_trans_code='cashRecovery' and t.trans_code='TransferContractManage';
+update tsys_user_right t set t.trans_code='debtpacket' where t.sub_trans_code='cashRecovery' and t.trans_code='TransferContractManage';
+update tsys_role_right t set t.trans_code='debtpacket' where t.sub_trans_code='cashRecovery' and t.trans_code='TransferContractManage';

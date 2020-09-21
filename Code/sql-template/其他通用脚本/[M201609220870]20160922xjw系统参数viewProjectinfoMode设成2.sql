@@ -1,0 +1,1 @@
+update tsys_parameter t set t.param_value = '2' where t.param_code = 'viewProjectinfoMode';

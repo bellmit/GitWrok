@@ -1,0 +1,1 @@
+update tflowformdesign t set t.c_fieldtype ='4' where t.process_id = 'appraisementPriceConfirm'and t.c_fielduuid='afacdaad462fa99231305b500bd3fbb1';

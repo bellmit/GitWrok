@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_factorsqlval = 'select t.c_projectname as factorvalue from tproject_info t where t.c_projectcode=''{tinvest_contract-projectname-rz}''' where t.c_factorcode = 'tinvest_contract-projectname-rz';

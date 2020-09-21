@@ -1,0 +1,1 @@
+update tinvest_busiflag t set t.c_businame = 'Õ®È¨ÊÕ¹º¿î' where t.c_busiflag='20001';

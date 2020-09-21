@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_copyfromout = '' where t.c_factorcode = 'mpcname';

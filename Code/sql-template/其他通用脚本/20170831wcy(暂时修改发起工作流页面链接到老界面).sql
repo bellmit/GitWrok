@@ -1,0 +1,1 @@
+update tsys_menu t set t.menu_url='workflow/client/startProcess.mw' where t.menu_code='flowTaskStart';

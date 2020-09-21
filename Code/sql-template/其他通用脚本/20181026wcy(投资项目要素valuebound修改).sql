@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_valuebound='projectSelector(''{fieldid}'',''projectnature=02'',selectProject)' where t.c_factorcode='tinvest_contract_investproject';

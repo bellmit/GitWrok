@@ -1,0 +1,1 @@
+update tproject_factor_info set c_factordefval = '' where c_factorcode = 'tproject_info_itemtype';

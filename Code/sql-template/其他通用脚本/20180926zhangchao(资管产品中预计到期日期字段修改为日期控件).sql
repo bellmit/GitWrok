@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_fieldtype = '4' where t.c_factorcode = 'tproject_fund_fundenddate';

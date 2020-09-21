@@ -1,0 +1,2 @@
+update tsysinfo_pagelet t set t.c_url='/pm/project/projectinfo.htm?iframeid=baseInfo'||to_char('&')||'factorflag=1'||to_char('&')||'maintablekey=[projectcode]'||to_char('&')||'querymode=[querymode]'||to_char('&')||'tempcode=[tempcodes]'||to_char('&')||'phase=[projectphase]
+' where t.c_pageletcode='47';

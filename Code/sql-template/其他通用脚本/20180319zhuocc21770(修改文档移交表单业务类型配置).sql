@@ -1,0 +1,1 @@
+update tmobile_config_field t set t.c_fieldcode='busitype_display' where t.c_modelcode='/pm/project/doc/textTransfer.htm' and t.c_fieldname='业务类型';

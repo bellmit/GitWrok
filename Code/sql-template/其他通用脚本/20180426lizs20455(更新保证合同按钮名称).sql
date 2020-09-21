@@ -1,0 +1,1 @@
+ update tsys_subtrans t  set t.sub_trans_name = 'ĞÂÔö' where t.trans_code ='assestcollateral' and t.sub_trans_code ='dzyrk';

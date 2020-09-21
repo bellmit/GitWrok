@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.l_colspan ='2' where t.c_factorcode ='tasset_creditorcontract_remark';

@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.l_maxlength=18 where t.c_factorcode ='customer_socialcreditcode';

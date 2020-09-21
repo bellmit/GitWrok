@@ -1,0 +1,1 @@
+update tsysinfo_pagelet t set t.c_url='/packetreception/assetpacket/receivepayment_view.htm?projectcode=[projectcode]|loanaccountcode=[loanaccountcode]' where t.c_pageletcode='pay25';

@@ -1,0 +1,1 @@
+update TASSET_TRANSFER_DETAIL t set t.c_objecttype='0' where t.c_objecttype is null;

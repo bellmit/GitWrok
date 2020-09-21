@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_valuebound = 'AMC_REPAYWAY' where t.c_factorcode = 'tinvest_contract_repaytype' or t.c_factorcode = 'tinvest_contract-repaytype';

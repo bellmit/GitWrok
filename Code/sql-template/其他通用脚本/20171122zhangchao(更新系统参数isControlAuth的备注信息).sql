@@ -1,0 +1,1 @@
+update tsys_parameter t set t.param_desc='0:代表执行模式一控制;1:代表执行模式二控制' where t.param_code='isControlAuth';

@@ -1,0 +1,1 @@
+update tproject_info t set t.c_projecttype='01' where t.c_projectcode='FDefault';

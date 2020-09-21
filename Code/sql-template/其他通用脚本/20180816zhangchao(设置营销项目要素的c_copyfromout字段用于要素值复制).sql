@@ -1,0 +1,2 @@
+update tproject_factor_info t set t.c_copyfromout = 'tproject_info_investmentmanagerA' where t.c_factorcode = 'mpcprojectmanager';
+update tproject_factor_info t set t.c_copyfromout = 'tproject_info_trustmanager,tproject_info_investmentmanager' where t.c_factorcode = 'mpctrustmanager';

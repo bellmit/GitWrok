@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_factorsqlval = 'select ci.c_customername as factorvalue from tcustomer_info ci,tcustomer_role_relation t where ci.c_customercode = t.c_customercode and  t.c_relationcode = ''{tinvest_contract_hostingbank}''' where t.c_factorcode = 'tinvest_contract_hostingbank';

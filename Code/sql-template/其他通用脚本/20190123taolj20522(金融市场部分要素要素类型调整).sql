@@ -1,0 +1,1 @@
+update tgeneral_import_element_info set c_elementtype = 'hidden' where c_elementtype = 'feno' and c_table_column = 'c_feno';

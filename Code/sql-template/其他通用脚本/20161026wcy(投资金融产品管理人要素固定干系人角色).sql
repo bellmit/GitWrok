@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_valuebound='customerAccSelector(''4'',''{fieldid}'',setRivalAccount,'''',''1'')' where t.c_factorcode in ('tinvest_contract_rivalid','tinvest_contract-fundtrustee');

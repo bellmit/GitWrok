@@ -1,0 +1,2 @@
+insert into tsys_role (ROLE_CODE, ROLE_NAME, CREATOR, REMARK, PARENT_ID, ROLE_PATH, ROLE_ORDER, CREATE_DATE, MODIFY_DATE, CREATE_TIME, MODIFY_TIME, ROLE_TYPE)
+values ('9997', '查看全部认领结果角色', 'admin', null, null, null, '999', 20170915, 0, 131620, 0, null);

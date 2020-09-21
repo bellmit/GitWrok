@@ -1,0 +1,2 @@
+insert into jbpm4_ext_formreg (UUID, CLASSID, FORMTYPE, FORMNAME, FORMURL, DESCRIPTION, FORMCODE, EXTFIELD1, EXTFIELD2, EXTFIELD3)
+values ('f9e15719c5fa4706bbb377ae965d76b8', 'b4f539ddefb848f99ff48c1a8f4b5f8f', 'PAGE_MW', '保证金转收入表单', '/financial/deposit/depositTurnIncomeFlowForm.htm', null, null, null, null, null);

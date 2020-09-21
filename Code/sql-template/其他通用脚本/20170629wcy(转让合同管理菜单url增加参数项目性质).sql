@@ -1,0 +1,1 @@
+update tsys_menu t set t.menu_url='invest/transferContract.htm?projectnature=01' where t.menu_code='TransferContractManage';

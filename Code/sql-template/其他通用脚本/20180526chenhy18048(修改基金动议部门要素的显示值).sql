@@ -1,0 +1,1 @@
+update tproject_factor_info t set t.c_factorsqlval = 'select concatstr(t.org_name) as factorvalue from tsys_organization t where t.org_id in (''{tproject_fund_motiondept}'')' where t.c_factorcode = 'tproject_fund_motiondept';

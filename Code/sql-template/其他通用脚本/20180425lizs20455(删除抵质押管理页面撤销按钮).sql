@@ -1,0 +1,1 @@
+delete from tsys_subtrans t where t.sub_trans_code ='cx' and t.trans_code ='tinvestcollateral';

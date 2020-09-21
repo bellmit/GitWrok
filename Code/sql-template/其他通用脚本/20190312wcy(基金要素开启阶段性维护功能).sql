@@ -1,0 +1,1 @@
+UPDATE tproject_factor_config t SET t.c_isphase='1' where t.c_factorflag='60';

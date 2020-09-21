@@ -1,0 +1,1 @@
+alter table tasset_mortgagecontract  modify C_MORTGAGOR VARCHAR2(400);

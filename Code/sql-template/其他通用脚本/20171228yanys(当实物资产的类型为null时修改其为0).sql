@@ -1,0 +1,1 @@
+update tinvest_collateral t set t.c_realassettype='0' where t.c_realassettype is null;
